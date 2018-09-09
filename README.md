@@ -7,7 +7,7 @@ We explore different methods of aggregating votes, and try come up with a robust
 # Setup
 We setup voters as "sensors" gathering temperature data. their votes constitue a temperature reading at some given time t. So each sensor has TT number of sensor readings. TT = 288 temp readings in the day.
 The temperature data is generated using a sin function, and the readings are created randomly using a bayesian distribution. The variances of this distribution are provided randomly to each sensor.
-The goal is to have an algorithm which attempts to evaluate what the variances of these sensors might be, in order to provide weights to each sensor and so the submitted readings from each sensor will be aggreagted accordingly.
+The goal is to have an algorithm which attempts to evaluate what the variances of these sensors might be, in order to provide weights to each sensor and so the submitted readings from each sensor will be aggregated accordingly.
 
 # Credit
 This is a python implementation of mathematica code by Aleks Ignjatovic, as part of an Advanced Algorithms course from the University of New South Wales Sydney.
